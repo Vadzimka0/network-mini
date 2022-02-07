@@ -40,12 +40,7 @@ export const usersAPI = {
     return instance.delete(`follow/${id}`).then(response => response.data);
   },
   followUsers(id: number) {
-    return (
-      instance
-        .post(`follow/${id}`)
-        // у post второй параметр { }
-        .then(response => response.data)
-    );
+    return instance.post(`follow/${id}`).then(response => response.data);
   },
   getProfile(id: number) {
     // console.warn('Obsolete method. Please use profileAPI object.');
