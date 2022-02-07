@@ -1,0 +1,42 @@
+.dialogs {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.dialogs_names {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.name > * {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.8rem;
+  background-color: #eee;
+  width: 140px;
+}
+
+.name > *,
+.name > *:visited,
+.name > *:active {
+  color: #000;
+}
+
+/*.name.active > * {*/
+/*  font-weight: 700;*/
+/*  box-shadow: 2px 2px 7px 3px rgba(0,0,0,0.75) inset;*/
+/*}*/
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.message {
+  font-size: 1.8rem;
+}

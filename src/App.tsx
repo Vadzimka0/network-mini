@@ -1,8 +1,10 @@
 import { FC, ReactElement } from 'react';
 
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import { Aside } from 'components/Aside/Aside';
+import DialogsContainer from 'components/Dialogs/DialogsContainer';
+import HeaderContainer from 'components/Header/HeaderContainer';
 
 export const App: FC = (): ReactElement => (
   <BrowserRouter>
@@ -10,9 +12,9 @@ export const App: FC = (): ReactElement => (
       <div className="wrapper">
         <Aside />
         <main className="main">
-          {/* <HeaderContainer /> */}
+          <HeaderContainer />
           {/* <Route path="/profile/:userId?" render={() => <ProfileContainer />} /> */}
-          {/* <Route path="/dialogs" render={() => <DialogsContainer />} /> */}
+          <Route path="/dialogs" render={() => <DialogsContainer />} />
           {/* <Route path="/users" render={() => <UsersContainer />} /> */}
           {/* <Route path="/login" render={() => <Login />} /> */}
           {/* <Route */}

@@ -9,7 +9,7 @@ import logo from 'assets/images/follow-us.svg';
 export const Aside = (): ReactElement => (
   <aside className={c.aside}>
     <div className={c.logo}>
-      <a className={c.logo__link} href="#!">
+      <a className={c.logo__link} href="#!" onClick={event => event.preventDefault()}>
         <img className={c.logo__img} src={logo} alt="logo" />
       </a>
     </div>

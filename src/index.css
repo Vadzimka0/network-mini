@@ -1,0 +1,64 @@
+:root {
+  --main-color: rgb(15, 136, 85); /*--main-color: #0f8855;*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none
+}
+
+a, a:active, a:visited {
+  color: #fff;
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  filter: invert(35%) sepia(48%) saturate(5233%) hue-rotate(141deg) brightness(85%) contrast(88%);
+}
+
+html {
+  font-size: 10px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--main-color);
+  /*background: linear-gradient(90deg, var(--main-color) 0%, rgba(135,19,193,.7) 100%);*/
+  background: linear-gradient(90deg, var(--main-color) 0%, rgba(114, 70, 135, 1) 70%);
+  padding: 20px 20px;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  max-width: 1720px;
+  margin: auto;
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  min-height: calc(100vh - 40px);
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
