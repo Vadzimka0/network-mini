@@ -1,2 +1,0 @@
-(this["webpackJsonpnetwork-mini"]=this["webpackJsonpnetwork-mini"]||[]).push([[0],{9:function(n,t,e){"use strict";e.r(t);e(1);var i=e(3),c=e.n(i),o=function(n){n&&n instanceof Function&&e.e(3).then(e.bind(null,10)).then((function(t){var e=t.getCLS,i=t.getFID,c=t.getFCP,o=t.getLCP,r=t.getTTFB;e(n),i(n),c(n),o(n),r(n)}))},r=e(0),s=function(){return Object(r.jsx)("div",{children:"app"})};c.a.render(Object(r.jsx)(s,{}),document.getElementById("root")),o()}},[[9,1,2]]]);
-//# sourceMappingURL=main.be37d88f.chunk.js.map
