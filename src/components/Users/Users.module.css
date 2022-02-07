@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  font-size: 14px;
+}
+
+.selectedPage {
+  font-weight: bold;
+}
+
+.unSelectedPage {
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 15px
+}
+
+.grid > * {
+  width: 150px;
+  padding: 10px;
+}
+
+.userPic {
+  width: 60px;
+}
+
+.status {
+  overflow: hidden;
+  text-overflow: ellipsis
+}
