@@ -1,0 +1,28 @@
+.content {
+  padding: 30px;
+}
+
+.content__title {
+  font-size: 2.2rem;
+  padding-bottom: 20px;
+}
+
+.content__btn {
+  filter: none;
+  padding: 10px 20px;
+  background-color: #e2e2e2;
+  color: #000;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  row-gap: 10px;
+}
+
+.item {
+  /*padding-bottom: 10px;*/
+}

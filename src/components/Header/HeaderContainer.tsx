@@ -12,7 +12,7 @@ type mapDispatchToPropsType = { getAuthUserData: () => any };
 export type HeaderPropsType = mapStateToPropsType & mapDispatchToPropsType;
 
 class HeaderContainer extends React.Component<HeaderPropsType> {
-  componentDidMount(): any {
+  componentDidMount(): void {
     this.props.getAuthUserData();
   }
 
