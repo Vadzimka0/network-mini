@@ -1,6 +1,3 @@
-import { FC } from 'react';
+import { FC, ReactElement } from 'react';
 
-import { CustomInput } from './components';
-import { ReturnComponentType } from './types';
-
-export const App: FC = (): ReturnComponentType => <CustomInput title="Some title" />;
+export const App: FC = (): ReactElement => <div>app</div>;

@@ -1,3 +1,0 @@
-CRA project
-
-network-mini
