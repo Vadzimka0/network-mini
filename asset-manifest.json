@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/network-mini/static/js/main.be37d88f.chunk.js",
+    "main.js.map": "/network-mini/static/js/main.be37d88f.chunk.js.map",
+    "runtime-main.js": "/network-mini/static/js/runtime-main.b5548ad1.js",
+    "runtime-main.js.map": "/network-mini/static/js/runtime-main.b5548ad1.js.map",
+    "static/js/2.20665f8f.chunk.js": "/network-mini/static/js/2.20665f8f.chunk.js",
+    "static/js/2.20665f8f.chunk.js.map": "/network-mini/static/js/2.20665f8f.chunk.js.map",
+    "static/js/3.e5d3dddf.chunk.js": "/network-mini/static/js/3.e5d3dddf.chunk.js",
+    "static/js/3.e5d3dddf.chunk.js.map": "/network-mini/static/js/3.e5d3dddf.chunk.js.map",
+    "index.html": "/network-mini/index.html",
+    "static/js/2.20665f8f.chunk.js.LICENSE.txt": "/network-mini/static/js/2.20665f8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5548ad1.js",
+    "static/js/2.20665f8f.chunk.js",
+    "static/js/main.be37d88f.chunk.js"
+  ]
+}
