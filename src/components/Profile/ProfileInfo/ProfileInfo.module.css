@@ -2,3 +2,7 @@
   padding: 40px;
   font-size: 2rem;
 }
+.profile > * {
+  display: flex;
+  column-gap: 30px;
+}

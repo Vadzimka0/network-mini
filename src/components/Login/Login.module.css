@@ -1,3 +1,41 @@
-.login {
-  font-size: 20px;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 100px auto auto;
+  font-size: 16px;
 }
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form > * {
+  margin-top: 16px;
+}
+
+.form label {
+  cursor: pointer;
+}
+
+.form label input {
+  background-color: #fff;
+}
+
+.form button {
+  display: block;
+  margin: 25px auto 0;
+  padding: 7px 30px;
+  border-radius: 20px;
+  border: none;
+  /*background-color: #0f8855;*/
+  /*color: #fff;*/
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background-color: rgba(224, 244, 255, 0.19);
+}
+

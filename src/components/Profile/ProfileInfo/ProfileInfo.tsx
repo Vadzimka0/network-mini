@@ -22,9 +22,10 @@ export const ProfileInfo = ({
 
   return (
     <div className={c.profile}>
-      ProfileInfo: info + img
+      {/* ProfileInfo: info + img */}
       <div>
-        <img src={profile.photos.large} alt="profile pic" />
+        {/* <img src={profile.photos.small} alt="profile pic" /> */}
+        <span>status: </span>
         <ProfileStatus status={status} updateStatus={updateStatus} />
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { FC, ReactElement } from 'react';
 
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 import { Aside } from 'components/Aside/Aside';
 import DialogsContainer from 'components/Dialogs/DialogsContainer';
@@ -16,6 +16,7 @@ export const App: FC = (): ReactElement => (
         <Aside />
         <main className="main">
           <HeaderContainer />
+          <Route path="/" exact render={() => <Redirect to="/profile" />} />
           <Route path="/profile/:userId?" render={() => <ProfileContainer />} />
           <Route path="/dialogs" render={() => <DialogsContainer />} />
           <Route path="/users" render={() => <UsersContainer />} />
